@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 int main(void)
 {
@@ -10,8 +11,9 @@ int main(void)
 	while (1)
 	{
 		printf("$");
-		getline(&lineptr, &size, stdin);
+		_getline(&lineptr, &size, stdin);
 		printf("%s", lineptr);
+
 	}
 	return (0);
 }	

@@ -1,0 +1,9 @@
+Inlcude all the neccessary header files
+
+intitialize all the getline arguments
+Write an infinite loop
+Use getline to read from the stdin
+In the loop declare a const char argv to pass to the execve
+In the child process call execve using the arguments form argv
+
+
